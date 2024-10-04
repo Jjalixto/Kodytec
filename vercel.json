@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "http://app-kodytec-login-v2-e7epfufmcdh2d5fz.eastus-01.azurewebsites.net/:path*"
+        }
+    ]
+}
